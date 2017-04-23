@@ -5,21 +5,30 @@
  .contenedor{
  margin: 0;
    padding: 0;
+}
+.caja{
+    width: 200px;
+    height: 200px;
+
+  }
+
+  #rosa{
+  background-color: #FF43AD;
+
+  }
+
+  #azul{
+  background-color: #53A1FF;
+  position: absolute;
+  left: 200px;
+  }
+
+  #verde{
+  background-color: #87BA20;
 
  }
- .caja{
-   width: 200px;
-   height: 200px;
- }
- #rosa{
- background-color: #FF43AD;
- }
- #azul{
- background-color: #53A1FF;
- margin-left: 200px;
- position: relative;
- }
 
- #verde{
- background-color: #87BA20;
- }
+ #amarillo{
+ background-color: yellow;
+
+}

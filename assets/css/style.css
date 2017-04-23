@@ -6,20 +6,34 @@ body{
   margin: 0;
   padding: 0;
 
+
 }
 .caja{
   width: 200px;
   height: 200px;
+  position: absolute;
 }
+
 #rosa{
 background-color: #FF43AD;
+left:0;
+top:0;
 }
+
 #azul{
 background-color: #53A1FF;
-margin-left: 200px;
-position: relative;
+right: 0;
+top:0;
 }
 
 #verde{
 background-color: #87BA20;
+left:0;
+bottom:0;
+}
+
+#amarillo{
+background-color: yellow;
+right: 0;
+bottom: 0;
 }
